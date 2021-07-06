@@ -1,8 +1,8 @@
 {
   "name": "player-router-js-sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Javascript SDK for Player Router connections",
-  "main": "/dist/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "jest --watch",
     "start": "tsc && node ./dist/index.js"
@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/jakapps/player-router-js-sdk.git"
   },
+  "files": [ "dist/index.js" ],
   "author": "Jack Wright",
   "license": "MIT",
   "bugs": {
